@@ -1,12 +1,12 @@
 import React from "react";
-import { LoginComponent } from "../components/LoginComponent";
+import { LoginComponent } from "../../components/LoginComponent";
 // import Image from "next/image";
 
 import {
   LoginContainer,
   LoginLogo,
-} from "../components/PagesStyles/loginStyles";
-import { GlobalStyles } from "../components/PagesStyles/GlobalStyles";
+} from "../../components/PagesStyles/loginStyles";
+import { GlobalStyles } from "../../components/PagesStyles/GlobalStyles";
 
 // import Image from "../../assets/image";
 // const dev = require("/dev.jpg");
