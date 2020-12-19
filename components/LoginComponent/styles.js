@@ -33,6 +33,9 @@ export const LoginButton = styled.button`
   background: #5e81f4;
   color: #ffffff;
   border: none;
+  position: absolute;
+  bottom: 30px;
+  left: 7vw;
 `;
 
 export const LoginTitle = styled.h1`
@@ -47,11 +50,13 @@ export const LoginForm = styled.form`
   height: 60%;
   display: flex;
   flex-direction: column;
+  position: relative;
 
   p {
     margin-bottom: 0;
     font-size: 12px;
   }
+
   input {
     margin: 5px;
     height: 60px;

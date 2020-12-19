@@ -47,9 +47,6 @@ export const Offer = (props) => {
             </div>
           </Info>
         </OfferHeaderInfo>
-        <OfferHeaderButton>
-          <button>*</button>
-        </OfferHeaderButton>
       </OfferHeader>
       <OfferContent>
         <p>{props.openOffer.description}</p>
