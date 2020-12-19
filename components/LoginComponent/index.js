@@ -27,7 +27,7 @@ export const LoginComponent = () => {
     try {
       const login = await loginUser(form);
       console.log(login);
-      if (login.message === "Login succes") {
+      if (login.message === "Login success") {
         const { id } = JwtDecode(login.data.accessToken);
         // dispatch(getUserData(id, login.data.token));
         console.log(id);
