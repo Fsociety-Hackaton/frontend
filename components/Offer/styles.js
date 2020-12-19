@@ -6,7 +6,7 @@ export const OfferContainer = styled.div`
   width: auto;
   max-height: 800px;
   border-radius: 10px;
-  border: 1px solid black;
+  border: 1px solid #dfe1e5;
   background: #ffffff;
 `;
 
@@ -14,7 +14,7 @@ export const OfferHeader = styled.div`
   height: 200px;
   display: flex;
   justify-content: center;
-  border-bottom: 2px solid grey;
+  border-bottom: 2px solid #dfe1e5;
   font-family: "Inter", sans-serif;
 `;
 
@@ -22,7 +22,7 @@ export const OfferHeaderImage = styled.div`
   margin: 20px;
   width: 20%;
   height: 60%;
-  border: 1px solid black;
+  border: 1px solid #dfe1e5;
 `;
 
 export const OfferHeaderInfo = styled.div`
@@ -53,7 +53,7 @@ export const Info = styled.div`
     margin: 0px 10px 0px 0px;
     width: 40px;
     height: 40px;
-    border: 1px solid grey;
+    border: 1px solid #dfe1e5;
   }
 `;
 
@@ -66,23 +66,6 @@ export const Pb = styled.p`
   margin: 0;
   color: #83919e;
   font-weight: bold;
-`;
-
-export const OfferHeaderButton = styled.div`
-  margin-top: 30px;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  background: #ffffff;
-  border: 1px solid #ffffff;
-  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
-  button {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%;
-    background-color: #ffffff;
-    border: 1px transparent;
-  }
 `;
 
 export const OfferContent = styled.section`
