@@ -23,7 +23,7 @@ export const SearchComponent = () => {
         </div>
       </SearchBar>
       <SearchFilter>
-        <div>
+        {/* <div>
           <button>Tipo De Vacante</button>
         </div>
         <div>
@@ -31,7 +31,7 @@ export const SearchComponent = () => {
         </div>
         <div>
           <button>Ubicación</button>
-        </div>
+        </div> */}
         {/* <div className="dropdown">
           <ButtonSelector type="button" data-toggle="dropdown">
             Tipo
