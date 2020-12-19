@@ -11,7 +11,7 @@ export const MainContainer = styled.div`
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  margin: 50px auto 150px;
+  margin: 25px auto 150px;
   padding: 25px;
   font-family: "Inter", sans-serif;
 `;
